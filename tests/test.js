@@ -6,6 +6,7 @@ test('check alphabet string option', t => {
 	const expectedIterationsNumber = 6
 	let counter = 0
 
+	/* eslint-disable no-unused-vars */
 	for (const _ of brute({alphabet})) {
 		counter++
 	}
@@ -21,6 +22,7 @@ test('check alphabet array option', t => {
 	const expectedIterationsNumber = 6
 	let counter = 0
 
+	/* eslint-disable no-unused-vars */
 	for (const _ of brute({alphabet})) {
 		counter++
 	}
