@@ -1,7 +1,6 @@
 const test = require('ava')
 const brute = require('../src')
 
-/* eslint-disable no-unused-vars */
 test('check alphabet string option', t => {
 	const alphabet = 'ab'
 	const expectedIterationsNumber = 6
@@ -41,6 +40,28 @@ test('check from option', t => {
 	const generator = brute({
 		alphabet,
 		from,
+	})
+
+	for (const chars of generator) {
+		values.push(chars)
+	}
+
+	t.deepEqual(values, expectedValues)
+})
+
+test('check to option', t => {
+	const alphabet = 'ab'
+	const from = 4
+	const to = 5
+	const expectedValues = [
+		'ab',
+		'ba',
+	]
+	const values = []
+	const generator = brute({
+		alphabet,
+		from,
+		to,
 	})
 
 	for (const chars of generator) {
