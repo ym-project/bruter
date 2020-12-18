@@ -27,6 +27,7 @@
     "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
+    "ava": "^3.14.0",
     "eslint": "^7.15.0",
     "husky": "^4.3.6"
   }
