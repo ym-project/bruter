@@ -4,6 +4,10 @@ module.exports = {
 	},
 	extends: [
 		'eslint:recommended',
+		'plugin:ava/recommended',
+	],
+	plugins: [
+		'ava',
 	],
 	env: {
 		node: true,
