@@ -1,6 +1,6 @@
 {
   "name": "bruter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "brute force algorithm via js generator",
   "author": {
     "name": "ym-project",
