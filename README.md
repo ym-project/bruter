@@ -1,4 +1,5 @@
-# Brute force algorithm via js generator
+# Bruter
+Brute force algorithm via js generator
 
 ## Install
 ```sh
