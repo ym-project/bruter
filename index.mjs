@@ -1,4 +1,7 @@
-function* brute(chars) {
+function* brute(options) {
+	const chars = options.alphabet
+	let index = options.from || 1
+
 	let alphabet
 
 	if (Array.isArray(chars)) {
@@ -9,7 +12,6 @@ function* brute(chars) {
 		throw new TypeError('Argument "chars" should be array or string!')
 	}
 
-	let index = 1
 	const alphabetLength = alphabet.length
 	const to = [...Array(alphabetLength + 1).keys()]
 		.slice(1)
