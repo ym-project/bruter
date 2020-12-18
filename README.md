@@ -2,13 +2,13 @@
 
 ## Install
 ```sh
-npm install brute-force
+npm install bruter
 ```
 
 ## Usage
 #### Basic example
 ```js
-const bruteForce = require('brute-force')
+const bruteForce = require('bruter')
 const alphabet = 'abc'
 
 for (const chars of bruteForce({alphabet})) {
@@ -22,7 +22,7 @@ for (const chars of bruteForce({alphabet})) {
 
 #### Continue from certain position
 ```js
-const bruteForce = require('brute-force')
+const bruteForce = require('bruter')
 const alphabet = 'abc'
 const from = 5
 
@@ -41,7 +41,7 @@ for (const chars of bruteForce({
 #### Brute in some range
 It's useful to brute via several nodes parallel.
 ```js
-const bruteForce = require('brute-force')
+const bruteForce = require('bruter')
 const alphabet = 'abc'
 const from = 5
 const to = 10

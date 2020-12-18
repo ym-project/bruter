@@ -1,5 +1,5 @@
 {
-  "name": "brute-force",
+  "name": "bruter",
   "version": "1.0.0",
   "description": "brute force algorithm via js generator",
   "author": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ym-project/brute-force"
+    "url": "https://github.com/ym-project/bruter"
   },
-  "homepage": "https://github.com/ym-project/brute-force#readme",
-  "bugs": "https://github.com/ym-project/brute-force/issues",
+  "homepage": "https://github.com/ym-project/bruter#readme",
+  "bugs": "https://github.com/ym-project/bruter/issues",
   "license": "MIT",
   "main": "./src/index.js",
   "exports": {
