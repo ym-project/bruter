@@ -37,7 +37,6 @@ function* brute(options) {
 	}
 }
 
-// размещение с повторениями
 function A(m, n) {
 	return Math.pow(n, m)
 }
