@@ -1,0 +1,25 @@
+{
+  "name": "brute-force",
+  "version": "0.0.0",
+  "description": "brute force algorithm via js generator",
+  "author": {
+    "name": "ym-project",
+    "email": "ym-project@protonmail.com",
+    "url": "https://github.com/ym-project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ym-project/brute-force"
+  },
+  "homepage": "https://github.com/ym-project/brute-force#readme",
+  "bugs": "https://github.com/ym-project/brute-force/issues",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  },
+  "engines": {
+    "node": ">=8.6.0"
+  }
+}
