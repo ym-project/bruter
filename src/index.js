@@ -13,10 +13,7 @@ function* brute(options) {
 	}
 
 	const alphabetLength = alphabet.length
-	const to = options.to || [...Array(alphabetLength + 1).keys()]
-		.slice(1)
-		.map(it => A(it, alphabetLength))
-		.reduce((prev, current) => prev + current)
+	const to = options.to || sumA(alphabetLength)
 
 	while (index <= to) {
 		yield numberToChars(index)
@@ -39,6 +36,13 @@ function* brute(options) {
 
 function A(m, n) {
 	return Math.pow(n, m)
+}
+
+function sumA(number) {
+	return [...Array(number + 1).keys()]
+		.slice(1)
+		.map(it => A(it, number))
+		.reduce((prev, current) => prev + current)
 }
 
 module.exports = brute

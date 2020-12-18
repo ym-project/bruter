@@ -14,12 +14,12 @@
   "homepage": "https://github.com/ym-project/brute-force#readme",
   "bugs": "https://github.com/ym-project/brute-force/issues",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./src/index.js",
   "exports": {
-    "import": "./index.mjs",
-    "require": "./index.js"
+    "import": "./src/index.mjs",
+    "require": "./src/index.js"
   },
-  "types": "index.d.ts",
+  "types": "src/index.d.ts",
   "engines": {
     "node": ">=8.6.0"
   },
