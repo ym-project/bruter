@@ -24,7 +24,8 @@
     "node": ">=8.6.0"
   },
   "scripts": {
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js'",
+    "test": "ava"
   },
   "devDependencies": {
     "ava": "^3.14.0",
