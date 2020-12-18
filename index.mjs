@@ -13,7 +13,7 @@ function* brute(options) {
 	}
 
 	const alphabetLength = alphabet.length
-	const to = [...Array(alphabetLength + 1).keys()]
+	const to = options.to || [...Array(alphabetLength + 1).keys()]
 		.slice(1)
 		.map(it => A(it, alphabetLength))
 		.reduce((prev, current) => prev + current)
